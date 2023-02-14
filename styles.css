@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 1000;
+    margin: 0;
+}
+
+body{
+    align-items: center;
+    background-image: url("https://virtualbackgrounds.site/wp-content/uploads/2021/05/happy-birthday-bunting.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+.container
+{
+    color: #d81111;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-weight: 100;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+li{
+    display: inline-block;
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding: 1cm;
+    text-transform: uppercase;
+}
+li span
+{
+    display: block;
+    font-size: 4.5rem;
+}
+.emoji
+{
+    display: none;
+    padding:1rem;
+}
+
+.emoji span{
+    font-size: 4rem;
+    padding: 0 .5;
+}
